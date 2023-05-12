@@ -1,0 +1,8 @@
+<%- include("templates/header") %>
+<div>Users:</div>
+<ul>
+    <% for (let i = 0; i < users.length; i++) { %>
+        <%- include('templates/user', { user: users[i] }) %>
+    <% } %>
+</ul>
+<%- include("templates/footer") %>

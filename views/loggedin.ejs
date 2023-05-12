@@ -1,0 +1,25 @@
+<%- include("templates/header") %>
+<div class="flex flex-col items-center justify-center h-screen">
+    <h1 class="text-4xl font-bold mb-8">Hello <%= username %>, Welcome to Cargain!</h1>
+    <!-- <img src="/public/logo.png" alt="Cargain logo" class="mb-8"> -->
+    <div class="grid grid-cols-2 gap-4">
+      <a href="#" class="bg-white rounded-lg shadow-md p-8">
+        <h2 class="text-2xl font-bold mb-4">Find a Car</h2>
+        <p class="text-gray-600">Answer some questions about yourself and find the right car for you!</p>
+      </a>
+      <a href="#" class="bg-white rounded-lg shadow-md p-8">
+        <h2 class="text-2xl font-bold mb-4">Sell or Buy a Car</h2>
+        <p class="text-gray-600">Enter details of a car and figure out what its what worth.</p>
+      </a>
+      <a href="/userProfile" class="bg-white rounded-lg shadow-md p-8">
+        <h2 class="text-2xl font-bold mb-4">Profile</h2>
+        <p class="text-gray-600">View your Settings and Prefences.</p>
+      </a>
+      <a href="#" class="bg-white rounded-lg shadow-md p-8">
+        <h2 class="text-2xl font-bold mb-4">My Garage</h2>
+        <p class="text-gray-600">View and change the car you have saved to the website to check price of.</p>
+      </a>
+    </div>
+  </div>
+
+  <%- include("templates/footer") %>
